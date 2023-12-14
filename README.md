@@ -4,7 +4,8 @@ In this presentation we'll create some poems about Star Wars characters.  For th
 # Prereqs
 - AWS account with Bedrock and some models enabled
 - AWS SSO (if you don't have this, use regular old AWS CLI auth.  See the docs for help.)
-- Node 20
+- node 20 / npm
+- 7zip
 
 # Before the show
 1. `npm install`
