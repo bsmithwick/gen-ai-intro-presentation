@@ -1,6 +1,11 @@
 # Dec 2023 Generative AI Intro Presentation
 In this presentation we'll create some poems about Star Wars characters.  For the final act, we'll build a vector database from a Wookieepedia site dump, and then query it with RAG.
 
+# Prereqs
+- AWS account with Bedrock and some models enabled
+- AWS SSO (if you don't have this, use regular old AWS CLI auth.  See the docs for help.)
+- Node 20
+
 # Before the show
 1. `npm install`
 2. Create a dotenv file: `touch .env && echo AWS_PROFILE={your AWS profile name} >>.env && echo AWS_DEFAULT_REGION={your AWS region} >>.env`
