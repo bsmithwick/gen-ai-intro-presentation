@@ -1,4 +1,5 @@
 # Dec 2023 Generative AI Intro Presentation
+In this presentation we'll create some poems about Star Wars characters.  For the final act, we'll build a vector database from a Wookieepedia site dump, and then query it with RAG.
 
 # Before the show
 1. `npm install`
@@ -9,7 +10,7 @@
     2. download into /data from https://starwars.fandom.com/wiki/Special:Statistics (database dumps)
     3. Unzip with 7zip
     4. Extract with https://github.com/attardi/wikiextractor
-    5. `node act3-preload.mjs` (You'll need to comment out the kill switch first. You'll spend some $ on Bedrock embeddings, so only do this once.)
+    5. `node act3-preload.mjs`  You'll need to comment out the kill switch first.  This takes several hours, and you'll spend about $6 on Bedrock embeddings.  You could also run Ollama or similar locally instead of using Bedrock.
 
 There are usage examples at the top of each `act*.mjs` script.
 
