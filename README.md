@@ -5,11 +5,11 @@
 2. Create a dotenv file: `touch .env && echo AWS_PROFILE={your AWS profile name} >>.env && echo AWS_DEFAULT_REGION={your AWS region} >>.env`
 3. Log in to your preferred AWS account: `aws sso login`
 4. Create the Wookieepedia vector database:
-    a. `mkdir data`
-    b. download into /data from https://starwars.fandom.com/wiki/Special:Statistics (database dumps)
-    c. Unzip with 7zip
-    d. Extract with https://github.com/attardi/wikiextractor
-    e. `node act3-preload.mjs` (You'll need to comment out the kill switch first. You'll spend some $ on Bedrock embeddings, so only do this once.)
+    1. `mkdir data`
+    2. download into /data from https://starwars.fandom.com/wiki/Special:Statistics (database dumps)
+    3. Unzip with 7zip
+    4. Extract with https://github.com/attardi/wikiextractor
+    5. `node act3-preload.mjs` (You'll need to comment out the kill switch first. You'll spend some $ on Bedrock embeddings, so only do this once.)
 
 There are usage examples at the top of each `act*.mjs` script.
 
