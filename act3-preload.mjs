@@ -9,7 +9,7 @@ import { FaissStore } from "langchain/vectorstores/faiss";
 
 import { XMLParser } from "fast-xml-parser";
 
-///////////////////////////////
+//////// KILL SWITCH ///////////
 console.log("You really don't want to run this again.");
 process.exit();
 ///////////////////////////////
