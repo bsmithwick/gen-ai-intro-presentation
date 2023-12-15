@@ -12,7 +12,7 @@ In this presentation we'll create some poems about Star Wars characters.  For th
     4. Extract with https://github.com/attardi/wikiextractor
     5. `node act3-preload.mjs`  You'll need to comment out the kill switch first.  This takes several hours, and you'll spend about $6 on Bedrock embeddings.  You could also run Ollama or similar locally instead of using Bedrock.
 
-There are usage examples at the top of each `act*.mjs` script.
+There are usage examples at the top of each `act*.mjs` script.  The `/refs` dir contains reference copies of several of the `act*.mjs` scripts with extra stuff commented out, so you can easily copy/paste it in during your demo.
 
 
 # Run of show
